@@ -1,6 +1,7 @@
 body{
-    
+    margin-bottom: 10px;
 }
+
 .lo{
     height: 50px;
     margin-left :50px;
@@ -32,9 +33,6 @@ a:hover{
     font-family: arial;
     width: 100%;
     box-sizing: border-box;
-    -webkit-appearance: none;
-    
-
 }
 .s-logo{
     margin: auto 100px;
@@ -42,23 +40,40 @@ a:hover{
 .movies{
     position: relative;
     display: inline-block;
-    margin: 16px;
+    margin: 0;
     border: solid lightgrey 1px;
     text-align: center;
     padding: 0 10px;
    
 }
 .container{
-    display: block;
+    display: inline-block;
     margin: auto 100px;
+    text-align: justify;
+    padding: 0%;
+    
 }
 .br{
+    position: relative;
    height: 300px;
     width: 200px;
-    display: inline;
+    display:inline;
+    padding: 16px;
+    margin: 0%;
+    border: 0cap;
     
    
 }
 .logo{
     margin: auto 100px;
+}
+.movie-link{
+    float:none;
+    position: relative;
+    display: block;
+
+
+}
+.movie-link:hover{
+    color: black;
 }
